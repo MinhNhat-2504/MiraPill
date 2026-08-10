@@ -1,0 +1,70 @@
+# ---------------------------------------------------------------------------
+# Whitelist policy: everything is ignored by default, and only source code is
+# explicitly re-included below. This keeps datasets, model weights, experiment
+# outputs and manuscript material out of the repository by construction.
+# ---------------------------------------------------------------------------
+/*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/azureml_submit_runs.py
+!/azureml_stop_runs.py
+
+# --- docker setup (from the upstream ePillID benchmark) --------------------
+!/docker/
+!/docker/**
+
+# --- source tree ------------------------------------------------------------
+!/src/
+/src/*
+!/src/*.py
+!/src/*.sh
+!/src/models/
+!/src/models/**
+!/src/configs/
+!/src/configs/**
+!/src/azureml/
+!/src/azureml/**
+
+# internal progress-report generator (writes a Vietnamese status document)
+/src/gen_baocao.py
+
+# --- never commit, wherever they appear -------------------------------------
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# datasets, crops and derived data
+*.csv
+*.jsonl
+*.pickle
+*.tab
+
+# model weights and adapters
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.traineddata
+
+# experiment outputs and logs
+*.log
+*.out
+
+# manuscript material (the paper is not public yet)
+*.tex
+*.pdf
+*.docx
+*.bib
+*.cls
+*.bst
+*.zip
