@@ -1,0 +1,12 @@
+[22:16:40] waiting for multi-seed to finish...
+[06:35:55] multi-seed done.
+[06:35:55] === ConvNeXt training start ===
+[09:31:52] ConvNeXt training exit=0
+[09:31:52] === soft-gate start ===
+[09:32:15] soft-gate exit=1
+[09:32:15] === OCR start ===
+OCR parsed: 0.0 0.0
+[09:38:29] OCR done
+[09:38:31] restored canonical predictions
+[09:38:41] finalize exit=0
+[09:38:41] === ALL REMAINING EXPERIMENTS DONE ===

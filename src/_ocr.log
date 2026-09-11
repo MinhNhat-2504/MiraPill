@@ -1,0 +1,55 @@
+2026-07-12 09:32:21.671963: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+INFO: Could not find files for the given pattern(s).
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[32mCreating model: ('PP-LCNet_x1_0_doc_ori', None, None)[0m
+[32mModel files already exist. Using cached files. To redownload, please delete the directory manually: `C:\Users\Minh Nhat\.paddlex\official_models\PP-LCNet_x1_0_doc_ori`.[0m
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0712 09:32:30.618041 37592 onednn_context.cc:81] oneDNN v3.6.2
+[32mCreating model: ('UVDoc', None, None)[0m
+[32mModel files already exist. Using cached files. To redownload, please delete the directory manually: `C:\Users\Minh Nhat\.paddlex\official_models\UVDoc`.[0m
+[32mCreating model: ('PP-LCNet_x1_0_textline_ori', None, None)[0m
+[32mModel files already exist. Using cached files. To redownload, please delete the directory manually: `C:\Users\Minh Nhat\.paddlex\official_models\PP-LCNet_x1_0_textline_ori`.[0m
+[32mCreating model: ('PP-OCRv3_mobile_det', None, None)[0m
+[33mChecking connectivity to the model hosters, this may take a while. To bypass this check, set `PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK` to `True`.[0m
+[32mUsing official model (PP-OCRv3_mobile_det), the model files will be automatically downloaded and saved in `C:\Users\Minh Nhat\.paddlex\official_models\PP-OCRv3_mobile_det`.[0m
+[join] rows with imprint GT  -> reference: 9730  consumer: 3605
+[by_pill] reference: 50 pills / 100 imgs | consumer: 50 pills / 181 imgs
+[saved] sample -> feasibility_out\sample.csv
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:04,  1.24it/s]Fetching 6 files:  33%|███▎      | 2/6 [00:00<00:01,  2.38it/s]Fetching 6 files:  83%|████████▎ | 5/6 [00:03<00:00,  1.54it/s]Fetching 6 files: 100%|██████████| 6/6 [00:03<00:00,  1.89it/s]
+[32mCreating model: ('en_PP-OCRv3_mobile_rec', None, None)[0m
+[32mUsing official model (en_PP-OCRv3_mobile_rec), the model files will be automatically downloaded and saved in `C:\Users\Minh Nhat\.paddlex\official_models\en_PP-OCRv3_mobile_rec`.[0m
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:04,  1.19it/s]Fetching 6 files:  83%|████████▎ | 5/6 [00:01<00:00,  2.88it/s]Fetching 6 files: 100%|██████████| 6/6 [00:01<00:00,  3.18it/s]
+D:\Project\AI Engineer\ePillID-benchmark-master\src\imprint_feasibility.py:427: DeprecationWarning: Please use `predict` instead.
+  res = self.ocr.ocr(arr)
+
+[run] reader = paddle  preprocess = none
+  [paddle] 20/281
+  [paddle] 40/281
+  [paddle] 60/281
+  [paddle] 80/281
+  [paddle] 100/281
+  [paddle] 120/281
+  [paddle] 140/281
+  [paddle] 160/281
+  [paddle] 180/281
+  [paddle] 200/281
+  [paddle] 220/281
+  [paddle] 240/281
+  [paddle] 260/281
+  [paddle] 280/281
+  [paddle] 281/281
+[saved] per-image results -> feasibility_out\per_image_results.csv
+
+================================================================
+BOTH-SIDES SUMMARY  (imprint pooled across a pill's side images)
+================================================================
+  paddle  | reference | pills= 50 (avg 2.0 imgs/pill) | complete-imprint=  0.0%  token-recall=  0.0%
+  paddle  | consumer  | pills= 50 (avg 3.6 imgs/pill) | complete-imprint=  0.0%  token-recall=  0.0%
+================================================================
+DECISION GATE (both-sides token-recall):  reference >= 70%  AND  consumer >= 40%
+  paddle : ref=  0.0%  cons=  0.0%  ->  NEEDS VLM FINE-TUNING
+================================================================
+

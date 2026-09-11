@@ -1,0 +1,34 @@
+[db] classes=4902  with imprint=4865 (99.2%)
+  multiseed canonical: visual=90.89 MIRA=96.33
+  multiseed seed202: visual=89.14 MIRA=93.29
+  multiseed seed303: visual=90.26 MIRA=94.73
+  convnext: {'v_top1': 89.14, 'v_map': 94.27, 'm_top1': 93.29, 'm_map': 96.41, 'gain_top1': 4.15, 'gain_map': 2.13}
+
+[saved] fusion_out/remaining_results.json
+{
+  "multiseed": {
+    "n_seeds": 3,
+    "mira_mean": 94.78168264110757,
+    "mira_std": 1.5182723566968357,
+    "visual_mean": 90.09584664536742,
+    "visual_std": 0.8894192272891341,
+    "mira_vals": [
+      96.33,
+      93.29,
+      94.73
+    ]
+  },
+  "convnext": {
+    "v_top1": 89.14,
+    "v_map": 94.27,
+    "m_top1": 93.29,
+    "m_map": 96.41,
+    "gain_top1": 4.15,
+    "gain_map": 2.13
+  },
+  "ocr": {
+    "engine": "PP-OCRv3",
+    "reference": 0.0,
+    "consumer": 0.0
+  }
+}

@@ -1,0 +1,27 @@
+2026-07-12 09:31:58.889240: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+[softgate] caching reader logprobs (GPU)...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.66s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.26s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.62s/it]
+Traceback (most recent call last):
+  File "D:\Project\AI Engineer\ePillID-benchmark-master\src\softgate_eval.py", line 85, in <module>
+    main()
+  File "D:\Project\AI Engineer\ePillID-benchmark-master\src\softgate_eval.py", line 62, in main
+    cache_logprobs(paths)
+  File "D:\Project\AI Engineer\ePillID-benchmark-master\src\softgate_eval.py", line 22, in cache_logprobs
+    reader = QwenReader("Qwen/Qwen2-VL-2B-Instruct", "cuda", adapter="qwen_imprint_lora")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\AI Engineer\ePillID-benchmark-master\src\imprint_feasibility.py", line 476, in __init__
+    self.model = PeftModel.from_pretrained(self.model, adapter)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\peft\peft_model.py", line 483, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\peft\config.py", line 152, in from_pretrained
+    return cls.from_peft_type(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\peft\config.py", line 119, in from_peft_type
+    return config_cls(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+TypeError: LoraConfig.__init__() got an unexpected keyword argument 'alora_invocation_tokens'

@@ -33,8 +33,9 @@ Hệ thống được đánh giá trên ba bộ dữ liệu trải đủ phổ i
 (viên có imprint nhưng không có metadata, nên cơ sở dữ liệu imprint được dựng bằng OCR đồng thuận) và
 OGYEIv2 (gần như không có imprint, dùng làm phép thử "không gây hại").
 
-> Bài báo mô tả công trình này đang trong quá trình phản biện, nên repo chỉ chứa phần cài đặt, không
-> kèm kết quả thực nghiệm.
+> Bài báo mô tả công trình này đã được đăng trên *Computers, Materials & Continua* ngày 10/09/2026,
+> DOI [10.32604/cmc.2026.087689](https://doi.org/10.32604/cmc.2026.087689). Xem mục
+> [Trích dẫn](#trích-dẫn) ở cuối trang.
 
 ## Cấu trúc thư mục
 
@@ -55,8 +56,34 @@ src/
   rebuttal_stats*.py         bootstrap phân cụm và thống kê gộp
   train_nocv.py, train_cv.py huấn luyện nhánh thị giác (kế thừa từ ePillID benchmark)
   models/                    mã nguồn nhánh thị giác, gồm cả fast-MPN-COV đi kèm
+  *.log                      log thô của toàn bộ các lần chạy (xem mục Kết quả kèm theo)
+  fusion_out/                kết quả dẫn xuất: chỉ số từng vòng, thống kê, cache imprint
+  imprint_ft_data_7525/      tập chia fine-tune cho reader (75/25 theo loại thuốc)
+  feas7525_base|ft/,
+  feas_tesseract/,
+  feasibility_out*/          tổng hợp đánh giá reader và các baseline OCR
+  figures_7525/              hình trong bài, sinh lại từ kết quả
+  azureml_logs/              đường cong huấn luyện nhánh thị giác
 docker/                      môi trường conda dùng cho nhánh thị giác
 ```
+
+### Kết quả kèm theo
+
+Repo kèm luôn log thô và kết quả dẫn xuất của các thí nghiệm trong bài, để ai muốn đối chiếu số liệu
+mà không chạy lại được toàn bộ pipeline vẫn kiểm tra được. Đáng chú ý:
+
+| Tệp | Tương ứng với |
+| --- | --- |
+| `src/_ft7525.log` | quá trình fine-tune reader (đường loss) |
+| `src/_r7525_feas_base.log`, `src/_r7525_feas_ft.log` | reader trước và sau fine-tune trên tập held-out |
+| `src/_p3_e1_fuse4fold.log` | kết quả chính trên ePillID |
+| `src/_p3_e2_signif.log` | kiểm định thống kê (McNemar, Wilcoxon, bootstrap) |
+| `src/_p3_cure_fusion.log`, `src/_p3_ogyei_fusion.log` | hai bộ dữ liệu chéo |
+| `src/fusion_out/*.json` | các số liệu tổng hợp dùng để lên bảng |
+
+Một số log là của các lần chạy đã bị thay thế trong quá trình làm (ví dụ cấu hình chia 90/10 trước
+đây), được giữ lại cho minh bạch; số liệu trong bài lấy từ các log `*7525*` và `_p3_*`. Các tệp quá
+lớn (ảnh dự đoán thô, trọng số adapter) không đưa lên đây.
 
 ## Bắt đầu
 
@@ -119,6 +146,25 @@ python e2_significance.py && python e3_failure_analysis.py
 
 Hai bộ dữ liệu chéo chạy theo trình tự tương tự: cắt ảnh viên thuốc, dựng cơ sở dữ liệu imprint bằng
 OCR đồng thuận, rồi fusion (`cure_build_crops.py` → `cure_imprint_db.py` → `cure_fusion.py`).
+
+## Trích dẫn
+
+Nếu công trình này hữu ích cho nghiên cứu của bạn, vui lòng trích dẫn:
+
+```bibtex
+@article{nguyen2026mirapill,
+  title   = {{MIRA-Pill}: Multimodal Imprint Reading and Confidence-Gated Re-Ranking
+             for Fine-Grained Pill Identification},
+  author  = {{Linh Nguyen Thi My} and {Nhat Trinh Ngoc Minh} and {Tham Vo} and
+             {Vinh Truong Hoang}},
+  journal = {Computers, Materials \& Continua},
+  year    = {2026},
+  doi     = {10.32604/cmc.2026.087689},
+  url     = {https://www.techscience.com/cmc/online/detail/28245}
+}
+```
+
+Bản đầy đủ: <https://doi.org/10.32604/cmc.2026.087689>
 
 ## Ghi nhận
 

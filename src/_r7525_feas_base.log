@@ -1,0 +1,192 @@
+[launcher] ['imprint_feasibility'] on a 128 MB stack
+[join] rows with imprint GT  -> reference: 9730  consumer: 3605
+[restrict] kept 1197 types (3408/13335 imgs) from imprint_ft_data_7525/val.jsonl
+[by_pill] reference: 1197 pills / 2440 imgs | consumer: 233 pills / 789 imgs
+[saved] sample -> feas7525_base\sample.csv
+2026-07-31 23:20:59.709375: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|#####     | 1/2 [00:06<00:06,  7.00s/it]Loading checkpoint shards: 100%|##########| 2/2 [00:07<00:00,  3.21s/it]Loading checkpoint shards: 100%|##########| 2/2 [00:07<00:00,  3.78s/it]
+
+[run] reader = qwen  preprocess = none
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\generation\configuration_utils.py:590: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\generation\configuration_utils.py:595: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\generation\configuration_utils.py:612: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  [qwen] 20/3229
+  [qwen] 40/3229
+  [qwen] 60/3229
+  [qwen] 80/3229
+  [qwen] 100/3229
+  [qwen] 120/3229
+  [qwen] 140/3229
+  [qwen] 160/3229
+  [qwen] 180/3229
+  [qwen] 200/3229
+  [qwen] 220/3229
+  [qwen] 240/3229
+  [qwen] 260/3229
+  [qwen] 280/3229
+  [qwen] 300/3229
+  [qwen] 320/3229
+  [qwen] 340/3229
+  [qwen] 360/3229
+  [qwen] 380/3229
+  [qwen] 400/3229
+  [qwen] 420/3229
+  [qwen] 440/3229
+  [qwen] 460/3229
+  [qwen] 480/3229
+  [qwen] 500/3229
+  [qwen] 520/3229
+  [qwen] 540/3229
+  [qwen] 560/3229
+  [qwen] 580/3229
+  [qwen] 600/3229
+  [qwen] 620/3229
+  [qwen] 640/3229
+  [qwen] 660/3229
+  [qwen] 680/3229
+  [qwen] 700/3229
+  [qwen] 720/3229
+  [qwen] 740/3229
+  [qwen] 760/3229
+  [qwen] 780/3229
+  [qwen] 800/3229
+  [qwen] 820/3229
+  [qwen] 840/3229
+  [qwen] 860/3229
+  [qwen] 880/3229
+  [qwen] 900/3229
+  [qwen] 920/3229
+  [qwen] 940/3229
+  [qwen] 960/3229
+  [qwen] 980/3229
+  [qwen] 1000/3229
+  [qwen] 1020/3229
+  [qwen] 1040/3229
+  [qwen] 1060/3229
+  [qwen] 1080/3229
+  [qwen] 1100/3229
+  [qwen] 1120/3229
+  [qwen] 1140/3229
+  [qwen] 1160/3229
+  [qwen] 1180/3229
+  [qwen] 1200/3229
+  [qwen] 1220/3229
+  [qwen] 1240/3229
+  [qwen] 1260/3229
+  [qwen] 1280/3229
+  [qwen] 1300/3229
+  [qwen] 1320/3229
+  [qwen] 1340/3229
+  [qwen] 1360/3229
+  [qwen] 1380/3229
+  [qwen] 1400/3229
+  [qwen] 1420/3229
+  [qwen] 1440/3229
+  [qwen] 1460/3229
+  [qwen] 1480/3229
+  [qwen] 1500/3229
+  [qwen] 1520/3229
+  [qwen] 1540/3229
+  [qwen] 1560/3229
+  [qwen] 1580/3229
+  [qwen] 1600/3229
+  [qwen] 1620/3229
+  [qwen] 1640/3229
+  [qwen] 1660/3229
+  [qwen] 1680/3229
+  [qwen] 1700/3229
+  [qwen] 1720/3229
+  [qwen] 1740/3229
+  [qwen] 1760/3229
+  [qwen] 1780/3229
+  [qwen] 1800/3229
+  [qwen] 1820/3229
+  [qwen] 1840/3229
+  [qwen] 1860/3229
+  [qwen] 1880/3229
+  [qwen] 1900/3229
+  [qwen] 1920/3229
+  [qwen] 1940/3229
+  [qwen] 1960/3229
+  [qwen] 1980/3229
+  [qwen] 2000/3229
+  [qwen] 2020/3229
+  [qwen] 2040/3229
+  [qwen] 2060/3229
+  [qwen] 2080/3229
+  [qwen] 2100/3229
+  [qwen] 2120/3229
+  [qwen] 2140/3229
+  [qwen] 2160/3229
+  [qwen] 2180/3229
+  [qwen] 2200/3229
+  [qwen] 2220/3229
+  [qwen] 2240/3229
+  [qwen] 2260/3229
+  [qwen] 2280/3229
+  [qwen] 2300/3229
+  [qwen] 2320/3229
+  [qwen] 2340/3229
+  [qwen] 2360/3229
+  [qwen] 2380/3229
+  [qwen] 2400/3229
+  [qwen] 2420/3229
+  [qwen] 2440/3229
+  [qwen] 2460/3229
+  [qwen] 2480/3229
+  [qwen] 2500/3229
+  [qwen] 2520/3229
+  [qwen] 2540/3229
+  [qwen] 2560/3229
+  [qwen] 2580/3229
+  [qwen] 2600/3229
+  [qwen] 2620/3229
+  [qwen] 2640/3229
+  [qwen] 2660/3229
+  [qwen] 2680/3229
+  [qwen] 2700/3229
+  [qwen] 2720/3229
+  [qwen] 2740/3229
+  [qwen] 2760/3229
+  [qwen] 2780/3229
+  [qwen] 2800/3229
+  [qwen] 2820/3229
+  [qwen] 2840/3229
+  [qwen] 2860/3229
+  [qwen] 2880/3229
+  [qwen] 2900/3229
+  [qwen] 2920/3229
+  [qwen] 2940/3229
+  [qwen] 2960/3229
+  [qwen] 2980/3229
+  [qwen] 3000/3229
+  [qwen] 3020/3229
+  [qwen] 3040/3229
+  [qwen] 3060/3229
+  [qwen] 3080/3229
+  [qwen] 3100/3229
+  [qwen] 3120/3229
+  [qwen] 3140/3229
+  [qwen] 3160/3229
+  [qwen] 3180/3229
+  [qwen] 3200/3229
+  [qwen] 3220/3229
+  [qwen] 3229/3229
+[saved] per-image results -> feas7525_base\per_image_results.csv
+
+================================================================
+BOTH-SIDES SUMMARY  (imprint pooled across a pill's side images)
+================================================================
+  qwen    | reference | pills=1197 (avg 2.0 imgs/pill) | complete-imprint= 55.2%  token-recall= 64.2%
+  qwen    | consumer  | pills=233 (avg 3.4 imgs/pill) | complete-imprint= 42.9%  token-recall= 56.3%
+================================================================
+DECISION GATE (both-sides token-recall):  reference >= 70%  AND  consumer >= 40%
+  qwen   : ref= 64.2%  cons= 56.3%  ->  NEEDS VLM FINE-TUNING
+================================================================
+

@@ -1,0 +1,24 @@
+[db] classes=4902  with imprint=4865 (99.2%)
+============================================================
+E3 — imprint rescue analysis (4 folds pooled)
+============================================================
+  queries total              : 2504
+  RESCUED (visual wrong->MIRA right): 106  (4.2%)
+  hurt    (visual right->MIRA wrong): 6  (0.2%)
+  net rescued            : 100
+  both right / both wrong: 2256 / 136
+============================================================
+
+Qualitative RESCUED examples (fold _3), saved to fusion_out/e3_rescued_examples.csv:
+  read='T DE 718' | visual✗ '135' (00074-9189-90_DF1D) -> true 'OP 718' (51285-0538-02_9F30)
+  read='15 A' | visual✗ 'IG 276' (68462-0361-01_D222) -> true 'A 15' (65862-0050-30_0121)
+  read='TV 7296' | visual✗ 'TV 7295' (00093-7295-01_3128) -> true 'TV 7296' (00093-7296-01_F727)
+  read='TV 7296' | visual✗ 'TV 7295' (00093-7295-01_3128) -> true 'TV 7296' (00093-7296-01_F727)
+  read='TEVA 4068 T 1' | visual✗ 'TEVA 8815' (00093-2075-01_C326) -> true 'TEVA 4068' (00093-4068-01_CC26)
+  read='347 3147 RED' | visual✗ 'PFIZER PGN 100' (00071-1015-68_5215) -> true 'TEVA 3147' (00093-3147-01_2423)
+  read='PA46 L' | visual✗ 'PA83' (00555-1883-02_9232) -> true 'PA46' (50111-0851-01_8732)
+  read='PA46 G3' | visual✗ 'PA83' (00555-1883-02_9232) -> true 'PA46' (50111-0851-01_8732)
+  read='T PLIVA 328' | visual✗ 'PLIVA 467' (50111-0467-01_5430) -> true 'PLIVA 328' (50111-0328-01_5521)
+  read='M 495 T' | visual✗ 'ELN 30' (4138a56f96023a2552) -> true 'M 495' (00378-3495-01_1523)
+  read='TEVA 1084 7238' | visual✗ 'TEVA 7239' (00093-7239-98_A71D) -> true 'TEVA 7238' (00093-7238-98_731D)
+  read='TEVA 1084 7238' | visual✗ 'TEVA 7239' (00093-7239-98_A71D) -> true 'TEVA 7238' (00093-7238-98_731D)

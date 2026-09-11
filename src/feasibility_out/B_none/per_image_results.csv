@@ -1,0 +1,226 @@
+full_path,domain,label_prod_code,splimprint,is_front,reader,pred_raw,exact,side_match,token_recall,token_set,cer,contains,pred_norm,gt_norm
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/00056-0176-70_PART_1_OF_1_CHAL10_SB_99134CAA.jpg,reference,56-176,2;1;2;COUMADIN,False,qwen,,0,0,0.0,0,1.0,0,,2 1 2 COUMADIN
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/00056-0176-70_PART_1_OF_1_CHAL10_SF_99134CAA.jpg,reference,56-176,2;1;2;COUMADIN,True,qwen,COUMADIN 2 2,0,0,0.75,0,0.45454545454545453,0,COUMADIN 2 2,2 1 2 COUMADIN
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/00093-0147-01_PART_1_OF_1_CHAL10_SB_212990BC.jpg,reference,93-147,93;147,False,qwen,147,0,1,0.5,0,0.4,0,147,93 147
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/00093-0147-01_PART_1_OF_1_CHAL10_SF_212990BC.jpg,reference,93-147,93;147,True,qwen,93,0,1,0.5,0,0.6,0,93,93 147
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/00093-2931-01_PART_1_OF_1_CHAL10_SB_4A2B2559.jpg,reference,93-2931,N11,False,qwen,,0,0,0.0,0,1.0,0,,N11
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/00093-2931-01_PART_1_OF_1_CHAL10_SF_4A2B2559.jpg,reference,93-2931,N11,True,qwen,N 1,0,0,0.0,0,0.3333333333333333,0,N 1,N11
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/00172-5240-60_PART_1_OF_1_CHAL10_SB_A12DD0FE.jpg,reference,172-5240,5240;1;mg,False,qwen,240 mg,0,0,0.3333333333333333,0,0.2857142857142857,0,240 MG,5240 1 MG
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/00172-5240-60_PART_1_OF_1_CHAL10_SF_A12DD0FE.jpg,reference,172-5240,5240;1;mg,True,qwen,524,0,0,0.0,0,0.5714285714285714,0,524,5240 1 MG
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/00378-6231-01_PART_1_OF_1_CHAL10_SB_6B2135D9.jpg,reference,378-6231,MX31,False,qwen,,0,0,0.0,0,1.0,0,,MX31
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/00378-6231-01_PART_1_OF_1_CHAL10_SF_6B2135D9.jpg,reference,378-6231,MX31,True,qwen,MX31,1,1,1.0,1,0.0,1,MX31,MX31
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/00555-0323-02_PART_1_OF_1_CHAL10_SB_E72B73EB.jpg,reference,555-323,barr;323;25,False,qwen,,0,0,0.0,0,1.0,0,,BARR 323 25
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/00555-0323-02_PART_1_OF_1_CHAL10_SF_E72B73EB.jpg,reference,555-323,barr;323;25,True,qwen,BARR 323 25,1,1,1.0,1,0.0,1,BARR 323 25,BARR 323 25
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/00555-0980-37_PART_1_OF_1_CHAL10_SB_96304B32.jpg,reference,555-980,b;980,False,qwen,Orange,0,0,0.0,0,1.5,0,ORANGE,B 980
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/00555-0980-37_PART_1_OF_1_CHAL10_SF_96304B32.jpg,reference,555-980,b;980,True,qwen,980,0,1,0.5,0,0.25,0,980,B 980
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/50111-0326-01_PART_1_OF_1_CHAL10_SB_9C2F4E4A.jpg,reference,50111-326,PLIVA;326,False,qwen,,0,0,0.0,0,1.0,0,,PLIVA 326
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/50111-0326-01_PART_1_OF_1_CHAL10_SF_9C2F4E4A.jpg,reference,50111-326,PLIVA;326,True,qwen,PLIVA 326,1,1,1.0,1,0.0,1,PLIVA 326,PLIVA 326
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/50111-0901-01_PART_1_OF_1_CHAL10_SB_8B3245D2.jpg,reference,50111-901,PA1000,False,qwen,,0,0,0.0,0,1.0,0,,PA1000
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/50111-0901-01_PART_1_OF_1_CHAL10_SF_8B3245D2.jpg,reference,50111-901,PA1000,True,qwen,PA1000,1,1,1.0,1,0.0,1,PA1000,PA1000
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/51672-4032-01_PART_1_OF_1_CHAL10_SB_E52672E3.jpg,reference,51672-4032,5;WARFARIN;TARO,False,qwen,UH,0,0,0.0,0,1.0,0,UH,5 WARFARIN TARO
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/51672-4032-01_PART_1_OF_1_CHAL10_SF_E52672E3.jpg,reference,51672-4032,5;WARFARIN;TARO,True,qwen,warfarin taro,0,0,0.6666666666666666,0,0.07692307692307693,0,WARFARIN TARO,5 WARFARIN TARO
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/63459-0416-30_PART_1_OF_1_CHAL10_SB_8F2D47EA.jpg,reference,63459-416,C;416,False,qwen,416,0,1,0.5,0,0.25,0,416,C 416
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dr_224/63459-0416-30_PART_1_OF_1_CHAL10_SF_8F2D47EA.jpg,reference,63459-416,C;416,True,qwen,EFG,0,0,0.0,0,1.0,0,EFG,C 416
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0004-0259_0_0.jpg,reference,4-259,CellCept;250;Roche,True,qwen,CellCept250,0,0,0.0,0,0.3125,0,CELLCEPT250,CELLCEPT 250 ROCHE
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0004-0259_0_1.jpg,reference,4-259,CellCept;250;Roche,False,qwen,Blue Orange,0,0,0.0,0,0.75,0,BLUE ORANGE,CELLCEPT 250 ROCHE
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0093-5552_0_0.jpg,reference,93-5552,TEVA;5552,True,qwen,TEVA 5552,1,1,1.0,1,0.0,1,TEVA 5552,TEVA 5552
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0093-5552_0_1.jpg,reference,93-5552,TEVA;5552,False,qwen,Blue,0,0,0.0,0,1.0,0,BLUE,TEVA 5552
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0173-0644_0_0.jpg,reference,173-644,LAMICTAL;200,True,qwen,LAMICIAL200,0,0,0.0,0,0.09090909090909091,0,LAMICIAL200,LAMICTAL 200
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0173-0644_0_1.jpg,reference,173-644,LAMICTAL;200,False,qwen,,0,0,0.0,0,1.0,0,,LAMICTAL 200
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0378-2302_0_0.jpg,reference,378-2302,MYLAN;2302,True,qwen,MYLAN 2302,1,1,1.0,1,0.0,1,MYLAN 2302,MYLAN 2302
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0378-2302_0_1.jpg,reference,378-2302,MYLAN;2302,False,qwen,,0,0,0.0,0,1.0,0,,MYLAN 2302
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0456-2020_0_0.jpg,reference,456-2020,F;L;20,True,qwen,FL,0,0,0.0,0,0.5,0,FL,F L 20
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0456-2020_0_1.jpg,reference,456-2020,F;L;20,False,qwen,20,0,1,0.3333333333333333,0,0.5,0,20,F L 20
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0555-1054_0_0.jpg,reference,555-1054,barr;934,True,qwen,BARR 934,1,1,1.0,1,0.0,1,BARR 934,BARR 934
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0555-1054_0_1.jpg,reference,555-1054,barr;934,False,qwen,,0,0,0.0,0,1.0,0,,BARR 934
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0603-0024_0_0.jpg,reference,603-24,AZ013,True,qwen,A7013,0,0,0.0,0,0.2,0,A7013,AZ013
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0603-0024_0_1.jpg,reference,603-24,AZ013,False,qwen,,0,0,0.0,0,1.0,0,,AZ013
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0615-7622_0_0.jpg,reference,615-7622,93;7386;93;7386,True,qwen,93 7386,0,0,1.0,1,0.5,0,93 7386,93 7386 93 7386
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/0615-7622_0_1.jpg,reference,615-7622,93;7386;93;7386,False,qwen,Orange,0,0,0.0,0,1.0,0,ORANGE,93 7386 93 7386
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/10544-533_0_0.jpg,reference,10544-533,PLIVA;441,True,qwen,PLIVA461,0,0,0.0,0,0.125,0,PLIVA461,PLIVA 441
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/10544-533_0_1.jpg,reference,10544-533,PLIVA;441,False,qwen,50,0,0,0.0,0,1.0,0,50,PLIVA 441
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/15338-100_0_0.jpg,reference,15338-100,west;ward;3142,True,qwen,Westward3142,0,0,0.0,0,0.0,1,WESTWARD3142,WEST WARD 3142
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/15338-100_0_1.jpg,reference,15338-100,west;ward;3142,False,qwen,Blue,0,0,0.0,0,1.0,0,BLUE,WEST WARD 3142
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/16714-571_0_0.jpg,reference,16714-571,B;50,True,qwen,,0,0,0.0,0,1.0,0,,B 50
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/16714-571_0_1.jpg,reference,16714-571,B;50,False,qwen,B50,0,0,0.0,0,0.0,1,B50,B 50
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/21130-198_0_0.jpg,reference,21130-198,44;198,True,qwen,144 198,0,0,0.5,0,0.2,1,144 198,44 198
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/21130-198_0_1.jpg,reference,21130-198,44;198,False,qwen,,0,0,0.0,0,1.0,0,,44 198
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/21695-800_0_0.jpg,reference,21695-800,SZ467,True,qwen,SZ467,1,1,1.0,1,0.0,1,SZ467,SZ467
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/21695-800_0_1.jpg,reference,21695-800,SZ467,False,qwen,,0,0,0.0,0,1.0,0,,SZ467
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/50090-0800_0_0.jpg,reference,50090-800,3671,True,qwen,3671,1,1,1.0,1,0.0,1,3671,3671
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/50090-0800_0_1.jpg,reference,50090-800,3671,False,qwen,,0,0,0.0,0,1.0,0,,3671
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/50268-087_0_0.jpg,reference,50268-87,I;94,True,qwen,I,0,1,0.5,0,0.6666666666666666,0,I,I 94
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/50268-087_0_1.jpg,reference,50268-87,I;94,False,qwen,94,0,1,0.5,0,0.3333333333333333,0,94,I 94
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/50436-4777_0_0.jpg,reference,50436-4777,PLIVA;456,True,qwen,PLIVA 456,1,1,1.0,1,0.0,1,PLIVA 456,PLIVA 456
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/50436-4777_0_1.jpg,reference,50436-4777,PLIVA;456,False,qwen,,0,0,0.0,0,1.0,0,,PLIVA 456
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/52125-190_0_0.jpg,reference,52125-190,93;148,True,qwen,93,0,1,0.5,0,0.6,0,93,93 148
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/52125-190_0_1.jpg,reference,52125-190,93;148,False,qwen,148,0,1,0.5,0,0.4,0,148,93 148
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/53808-0551_0_0.jpg,reference,53808-551,P;20,True,qwen,P 20,1,1,1.0,1,0.0,1,P 20,P 20
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/53808-0551_0_1.jpg,reference,53808-551,P;20,False,qwen,Blue,0,0,0.0,0,1.3333333333333333,0,BLUE,P 20
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/54458-927_0_0.jpg,reference,54458-927,TEVA;771,True,qwen,TEVA,0,1,0.5,0,0.42857142857142855,0,TEVA,TEVA 771
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/54458-927_0_1.jpg,reference,54458-927,TEVA;771,False,qwen,771,0,1,0.5,0,0.5714285714285714,0,771,TEVA 771
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/54868-6190_0_0.jpg,reference,54868-6190,WATSON;411;100;mg,True,qwen,WATSON 411,0,0,0.5,0,0.35714285714285715,0,WATSON 411,WATSON 411 100 MG
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/54868-6190_0_1.jpg,reference,54868-6190,WATSON;411;100;mg,False,qwen,100mg,0,0,0.0,0,0.6428571428571429,0,100MG,WATSON 411 100 MG
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/55289-016_0_0.jpg,reference,55289-16,2103;V,True,qwen,,0,0,0.0,0,1.0,0,,2103 V
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/55289-016_0_1.jpg,reference,55289-16,2103;V,False,qwen,2103,0,1,0.5,0,0.2,0,2103,2103 V
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/55700-001_0_0.jpg,reference,55700-1,WATSON;657,True,qwen,WATSON,0,1,0.5,0,0.3333333333333333,0,WATSON,WATSON 657
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/55700-001_0_1.jpg,reference,55700-1,WATSON;657,False,qwen,657,0,1,0.5,0,0.6666666666666666,0,657,WATSON 657
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/59762-4440_0_0.jpg,reference,59762-4440,MEDROL;4,True,qwen,Medrol 4,1,1,1.0,1,0.0,1,MEDROL 4,MEDROL 4
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/59762-4440_0_1.jpg,reference,59762-4440,MEDROL;4,False,qwen,,0,0,0.0,0,1.0,0,,MEDROL 4
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/61786-235_0_0.jpg,reference,61786-235,184,True,qwen,1 84,0,0,0.0,0,0.0,1,1 84,184
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/61786-235_0_1.jpg,reference,61786-235,184,False,qwen,,0,0,0.0,0,1.0,0,,184
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/61786-549_0_0.jpg,reference,61786-549,M;3,True,qwen,M3,0,0,0.0,0,0.0,1,M3,M 3
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/61786-549_0_1.jpg,reference,61786-549,M;3,False,qwen,,0,0,0.0,0,1.0,0,,M 3
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/63187-402_0_0.jpg,reference,63187-402,TV;1003;5;5;5,True,qwen,TV 1003,0,0,0.4,0,0.3333333333333333,0,TV 1003,TV 1003 5 5 5
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/63187-402_0_1.jpg,reference,63187-402,TV;1003;5;5;5,False,qwen,555,0,0,0.0,0,0.6666666666666666,0,555,TV 1003 5 5 5
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/66336-028_0_0.jpg,reference,66336-28,I36,True,qwen,I36,1,1,1.0,1,0.0,1,I36,I36
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/66336-028_0_1.jpg,reference,66336-28,I36,False,qwen,,0,0,0.0,0,1.0,0,,I36
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/68151-4488_0_0.jpg,reference,68151-4488,LILLY;3239;60;mg,True,qwen,Lilly 3239 60 mg,1,1,1.0,1,0.0,1,LILLY 3239 60 MG,LILLY 3239 60 MG
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/68151-4488_0_1.jpg,reference,68151-4488,LILLY;3239;60;mg,False,qwen,"Blue, orange",0,0,0.0,0,0.9230769230769231,0,BLUE ORANGE,LILLY 3239 60 MG
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/69189-0413_0_0.jpg,reference,69189-413,256,True,qwen,P412,0,0,0.0,0,1.3333333333333333,0,P412,256
+D:/ePillID_data/ePillID_data\classification_data\segmented_nih_pills_224/69189-0413_0_1.jpg,reference,69189-413,256,False,qwen,,0,0,0.0,0,1.0,0,,256
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1054.jpg,consumer,67253-902,S902,True,qwen,S902,1,1,1.0,1,0.0,1,S902,S902
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1086.jpg,consumer,832-1025,832;BC20,False,qwen,,0,0,0.0,0,1.0,0,,832 BC20
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/109.jpg,consumer,63010-27,V;625,False,qwen,625,0,1,0.5,0,0.25,0,625,V 625
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1320.jpg,consumer,378-1807,M;L;7,False,qwen,47,0,0,0.0,0,0.6666666666666666,0,47,M L 7
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1350.jpg,consumer,65862-12,A;1;7,False,qwen,17,0,0,0.0,0,0.3333333333333333,0,17,A 1 7
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1351.jpg,consumer,172-4357,4357;150,False,qwen,150,0,1,0.5,0,0.5714285714285714,0,150,4357 150
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1443.jpg,consumer,63010-27,V;625,True,qwen,V,0,1,0.5,0,0.75,0,V,V 625
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1455.jpg,consumer,53489-648,Mutual;866,False,qwen,Blue and white,0,0,0.0,0,1.2222222222222223,0,BLUE AND WHITE,MUTUAL 866
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1463.jpg,consumer,555-9012,b;942,False,qwen,942,0,1,0.5,0,0.25,0,942,B 942
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1498.jpg,consumer,93-2929,2929;93,True,qwen,932029,0,0,0.0,0,0.8333333333333334,0,932029,2929 93
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1522.jpg,consumer,49884-922,P02,False,qwen,1000,0,0,0.0,0,1.0,0,1000,P02
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1528.jpg,consumer,63010-27,V;625,True,qwen,V-100,0,0,0.5,0,0.75,0,V 100,V 625
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1530.jpg,consumer,93-4068,TEVA;4068,True,qwen,TEVA4068,0,0,0.0,0,0.0,1,TEVA4068,TEVA 4068
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1561.jpg,consumer,93-1062,93;62,True,qwen,9362,0,0,0.0,0,0.0,1,9362,93 62
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1624.jpg,consumer,93-4068,TEVA;4068,True,qwen,TEVA 4088,0,0,0.5,0,0.125,0,TEVA 4088,TEVA 4068
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1640.jpg,consumer,59762-5011,G;5011,True,qwen,G,0,1,0.5,0,0.8,0,G,G 5011
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1655.jpg,consumer,65862-12,A;1;7,False,qwen,17,0,0,0.0,0,0.3333333333333333,0,17,A 1 7
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1666.jpg,consumer,93-2929,2929;93,True,qwen,9329,0,0,0.0,0,0.6666666666666666,0,9329,2929 93
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1721.jpg,consumer,93-1062,93;62,False,qwen,,0,0,0.0,0,1.0,0,,93 62
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1727.jpg,consumer,93-149,TEVA;149,True,qwen,TEVA,0,1,0.5,0,0.42857142857142855,0,TEVA,TEVA 149
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1728.jpg,consumer,456-457,A;TC,True,qwen,OCTW,0,0,0.0,0,1.0,0,OCTW,A TC
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1786.jpg,consumer,93-926,926;TEVA,True,qwen,TEVA,0,1,0.5,0,0.42857142857142855,0,TEVA,926 TEVA
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1801.jpg,consumer,93-1016,93;16,True,qwen,93,0,1,0.5,0,0.5,0,93,93 16
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1841.jpg,consumer,93-4068,TEVA;4068,True,qwen,TEVA4068,0,0,0.0,0,0.0,1,TEVA4068,TEVA 4068
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1851.jpg,consumer,555-1022,barr;24;mg;1022,True,qwen,BARR 24 mg 1022,1,1,1.0,1,0.0,1,BARR 24 MG 1022,BARR 24 MG 1022
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1932.jpg,consumer,65862-12,A;1;7,False,qwen,17,0,0,0.0,0,0.3333333333333333,0,17,A 1 7
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1974.jpg,consumer,50111-468,PLIVA;468,False,qwen,Blue,0,0,0.0,0,0.875,0,BLUE,PLIVA 468
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/1995.jpg,consumer,93-7350,93;7350;93;7350,False,qwen,Blue: 10000000000000000000000000000,0,0,0.0,0,2.5833333333333335,0,BLUE 10000000000000000000000000000,93 7350 93 7350
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/20.jpg,consumer,93-154,93;154,False,qwen,154,0,1,0.5,0,0.4,0,154,93 154
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2004.jpg,consumer,93-7219,93;7219,False,qwen,7219,0,1,0.5,0,0.3333333333333333,0,7219,93 7219
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2053.jpg,consumer,555-9012,b;942,True,qwen,O,0,0,0.0,0,1.0,0,O,B 942
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2055.jpg,consumer,93-5140,93;5140,False,qwen,5140,0,1,0.5,0,0.3333333333333333,0,5140,93 5140
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2081.jpg,consumer,65862-12,A;1;7,True,qwen,A,0,1,0.3333333333333333,0,0.6666666666666666,0,A,A 1 7
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2105.jpg,consumer,832-1025,832;BC20,True,qwen,BC20 832,0,0,1.0,1,0.8571428571428571,0,BC20 832,832 BC20
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2118.jpg,consumer,93-3002,93;3002;93;3002,False,qwen,White,0,0,0.0,0,1.0,0,WHITE,93 3002 93 3002
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2166.jpg,consumer,93-2929,2929;93,True,qwen,932929,0,0,0.0,0,0.6666666666666666,0,932929,2929 93
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2167.jpg,consumer,51285-595,OP;701,True,qwen,OP701,0,0,0.0,0,0.0,1,OP701,OP 701
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2204.jpg,consumer,555-9012,b;942,False,qwen,951,0,0,0.0,0,0.75,0,951,B 942
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2224.jpg,consumer,93-5712,5712;5;500,True,qwen,75712,0,0,0.0,0,0.625,0,75712,5712 5 500
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2252.jpg,consumer,93-1062,93;62,True,qwen,9362,0,0,0.0,0,0.0,1,9362,93 62
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2260.jpg,consumer,50111-468,PLIVA;468,False,qwen,Blue,0,0,0.0,0,0.875,0,BLUE,PLIVA 468
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2286.jpg,consumer,93-1016,93;16,True,qwen,93,0,1,0.5,0,0.5,0,93,93 16
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2325.jpg,consumer,59762-5011,G;5011,True,qwen,G,0,1,0.5,0,0.8,0,G,G 5011
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2355.jpg,consumer,456-1550,FL;50,False,qwen,50,0,1,0.5,0,0.5,0,50,FL 50
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2373.jpg,consumer,93-7238,TEVA;7238,True,qwen,TEVA,0,1,0.5,0,0.5,0,TEVA,TEVA 7238
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2376.jpg,consumer,555-9012,b;942,False,qwen,263,0,0,0.0,0,1.0,0,263,B 942
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2378.jpg,consumer,172-4357,4357;150,False,qwen,150,0,1,0.5,0,0.5714285714285714,0,150,4357 150
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2398.jpg,consumer,456-1550,FL;50,True,qwen,FL,0,1,0.5,0,0.5,0,FL,FL 50
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/240.jpg,consumer,93-149,TEVA;149,False,qwen,149,0,1,0.5,0,0.5714285714285714,0,149,TEVA 149
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/247.jpg,consumer,93-1062,93;62,True,qwen,9362,0,0,0.0,0,0.0,1,9362,93 62
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2477.jpg,consumer,555-139,b8;139,False,qwen,139,0,1,0.5,0,0.4,0,139,B8 139
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2521.jpg,consumer,51285-595,OP;701,True,qwen,OP701,0,0,0.0,0,0.0,1,OP701,OP 701
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2533.jpg,consumer,93-149,TEVA;149,False,qwen,149,0,1,0.5,0,0.5714285714285714,0,149,TEVA 149
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2553.jpg,consumer,555-1022,barr;24;mg;1022,True,qwen,Barr 24 mg 1022,1,1,1.0,1,0.0,1,BARR 24 MG 1022,BARR 24 MG 1022
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2560.jpg,consumer,93-4068,TEVA;4068,False,qwen,PINK 200,0,0,0.0,0,0.875,0,PINK 200,TEVA 4068
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2586.jpg,consumer,50111-468,PLIVA;468,True,qwen,PLIVA 468,1,1,1.0,1,0.0,1,PLIVA 468,PLIVA 468
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/259.jpg,consumer,93-39,9;3;39,False,qwen,39,0,1,0.3333333333333333,0,0.5,0,39,9 3 39
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2594.jpg,consumer,50111-468,PLIVA;468,True,qwen,LUVA 468,0,0,0.5,0,0.25,0,LUVA 468,PLIVA 468
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/261.jpg,consumer,93-7236,93;7236,False,qwen,7236,0,1,0.5,0,0.3333333333333333,0,7236,93 7236
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2685.jpg,consumer,93-149,TEVA;149,True,qwen,TEVA,0,1,0.5,0,0.42857142857142855,0,TEVA,TEVA 149
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2710.jpg,consumer,93-39,9;3;39,False,qwen,39,0,1,0.3333333333333333,0,0.5,0,39,9 3 39
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2726.jpg,consumer,93-1016,93;16,False,qwen,16,0,1,0.5,0,0.5,0,16,93 16
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/278.jpg,consumer,378-1110,MYLAN;G2,False,qwen,White,0,0,0.0,0,1.0,0,WHITE,MYLAN G2
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2797.jpg,consumer,555-139,b8;139,False,qwen,139,0,1,0.5,0,0.4,0,139,B8 139
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/28.jpg,consumer,74-6122,FI,True,qwen,F,0,0,0.0,0,0.5,0,F,FI
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/280.jpg,consumer,51285-595,OP;701,False,qwen,,0,0,0.0,0,1.0,0,,OP 701
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2857.jpg,consumer,555-9027,b;978,True,qwen,B,0,1,0.5,0,0.75,0,B,B 978
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2938.jpg,consumer,93-926,926;TEVA,True,qwen,TEVA,0,1,0.5,0,0.42857142857142855,0,TEVA,926 TEVA
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2974.jpg,consumer,555-1022,barr;24;mg;1022,True,qwen,Barr 24 mg 1022,1,1,1.0,1,0.0,1,BARR 24 MG 1022,BARR 24 MG 1022
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/2986.jpg,consumer,59762-5011,G;5011,False,qwen,5011,0,1,0.5,0,0.2,0,5011,G 5011
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3089.jpg,consumer,93-7236,93;7236,True,qwen,93,0,1,0.5,0,0.6666666666666666,0,93,93 7236
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/312.jpg,consumer,93-2929,2929;93,False,qwen,,0,0,0.0,0,1.0,0,,2929 93
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3128.jpg,consumer,93-7219,93;7219,True,qwen,93,0,1,0.5,0,0.6666666666666666,0,93,93 7219
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3137.jpg,consumer,59762-5011,G;5011,False,qwen,5011,0,1,0.5,0,0.2,0,5011,G 5011
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3142.jpg,consumer,555-9027,b;978,False,qwen,846,0,0,0.0,0,1.0,0,846,B 978
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3162.jpg,consumer,555-9028,b;247,True,qwen,C6,0,0,0.0,0,1.0,0,C6,B 247
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3205.jpg,consumer,555-9028,b;247,True,qwen,6,0,0,0.0,0,1.0,0,6,B 247
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3211.jpg,consumer,93-5140,93;5140,False,qwen,5140,0,1,0.5,0,0.3333333333333333,0,5140,93 5140
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3215.jpg,consumer,93-1016,93;16,True,qwen,93,0,1,0.5,0,0.5,0,93,93 16
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/327.jpg,consumer,93-320,93;320,True,qwen,320 33,0,0,0.5,0,0.8,0,320 33,93 320
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3296.jpg,consumer,50111-307,PA;307,True,qwen,AL,0,0,0.0,0,0.8,0,AL,PA 307
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3347.jpg,consumer,93-926,926;TEVA,True,qwen,TEVA,0,1,0.5,0,0.42857142857142855,0,TEVA,926 TEVA
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/339.jpg,consumer,93-3002,93;3002;93;3002,True,qwen,933002,0,0,0.0,0,0.5,0,933002,93 3002 93 3002
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3399.jpg,consumer,93-39,9;3;39,False,qwen,39,0,1,0.3333333333333333,0,0.5,0,39,9 3 39
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3402.jpg,consumer,93-154,93;154,False,qwen,154,0,1,0.5,0,0.4,0,154,93 154
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3444.jpg,consumer,93-7236,93;7236,True,qwen,93,0,1,0.5,0,0.6666666666666666,0,93,93 7236
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/346.jpg,consumer,172-4357,4357;150,True,qwen,F351,0,0,0.0,0,0.5714285714285714,0,F351,4357 150
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3462.jpg,consumer,832-1025,832;BC20,True,qwen,832 BC20,1,1,1.0,1,0.0,1,832 BC20,832 BC20
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3474.jpg,consumer,555-9028,b;247,False,qwen,978,0,0,0.0,0,1.0,0,978,B 247
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3480.jpg,consumer,51285-406,E;1,True,qwen,,0,0,0.0,0,1.0,0,,E 1
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3515.jpg,consumer,67253-902,S902,False,qwen,,0,0,0.0,0,1.0,0,,S902
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3588.jpg,consumer,50111-307,PA;307,True,qwen,IV,0,0,0.0,0,1.0,0,IV,PA 307
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3589.jpg,consumer,172-4357,4357;150,False,qwen,150,0,1,0.5,0,0.5714285714285714,0,150,4357 150
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3640.jpg,consumer,228-2634,634,False,qwen,634,1,1,1.0,1,0.0,1,634,634
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3650.jpg,consumer,555-9027,b;978,False,qwen,978,0,1,0.5,0,0.25,0,978,B 978
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3652.jpg,consumer,93-39,9;3;39,True,qwen,93,0,0,0.0,0,0.5,0,93,9 3 39
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3685.jpg,consumer,93-154,93;154,False,qwen,154,0,1,0.5,0,0.4,0,154,93 154
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3790.jpg,consumer,93-7238,TEVA;7238,True,qwen,TEVA,0,1,0.5,0,0.5,0,TEVA,TEVA 7238
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3827.jpg,consumer,93-7236,93;7236,False,qwen,7236,0,1,0.5,0,0.3333333333333333,0,7236,93 7236
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3874.jpg,consumer,555-9028,b;247,True,qwen,B,0,1,0.5,0,0.75,0,B,B 247
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3902.jpg,consumer,49884-922,P02,False,qwen,,0,0,0.0,0,1.0,0,,P02
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3964.jpg,consumer,456-457,A;TC,True,qwen,ATC,0,0,0.0,0,0.0,1,ATC,A TC
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/3982.jpg,consumer,93-154,93;154,True,qwen,93,0,1,0.5,0,0.6,0,93,93 154
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4084.jpg,consumer,555-9027,b;978,False,qwen,978,0,1,0.5,0,0.25,0,978,B 978
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4105.jpg,consumer,93-926,926;TEVA,False,qwen,926,0,1,0.5,0,0.5714285714285714,0,926,926 TEVA
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/413.jpg,consumer,53489-648,Mutual;866,True,qwen,mutual 866,1,1,1.0,1,0.0,1,MUTUAL 866,MUTUAL 866
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4142.jpg,consumer,93-7219,93;7219,False,qwen,7219,0,1,0.5,0,0.3333333333333333,0,7219,93 7219
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4170.jpg,consumer,53489-648,Mutual;866,True,qwen,mutual 866,1,1,1.0,1,0.0,1,MUTUAL 866,MUTUAL 866
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4230.jpg,consumer,228-2634,634,True,qwen,R,0,0,0.0,0,1.0,0,R,634
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4240.jpg,consumer,378-1807,M;L;7,False,qwen,L7,0,0,0.0,0,0.3333333333333333,0,L7,M L 7
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4241.jpg,consumer,93-7219,93;7219,False,qwen,7219,0,1,0.5,0,0.3333333333333333,0,7219,93 7219
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4280.jpg,consumer,378-1807,M;L;7,False,qwen,L17,0,0,0.0,0,0.6666666666666666,0,L17,M L 7
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4329.jpg,consumer,50111-307,PA;307,True,qwen,Z 7,0,0,0.0,0,0.8,0,Z 7,PA 307
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4376.jpg,consumer,93-7350,93;7350;93;7350,True,qwen,83 7350,0,0,0.5,0,0.5833333333333334,0,83 7350,93 7350 93 7350
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4416.jpg,consumer,51285-406,E;1,True,qwen,P 01,0,0,0.0,0,1.0,0,P 01,E 1
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4441.jpg,consumer,378-1807,M;L;7,False,qwen,17,0,0,0.0,0,0.6666666666666666,0,17,M L 7
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4538.jpg,consumer,555-1022,barr;24;mg;1022,True,qwen,BARR 24MG 1022,0,0,0.5,0,0.0,1,BARR 24MG 1022,BARR 24 MG 1022
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4554.jpg,consumer,172-7311,50;mg,True,qwen,50 mg,1,1,1.0,1,0.0,1,50 MG,50 MG
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4583.jpg,consumer,172-7311,50;mg,True,qwen,50 mg,1,1,1.0,1,0.0,1,50 MG,50 MG
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4599.jpg,consumer,93-5140,93;5140,True,qwen,93,0,1,0.5,0,0.6666666666666666,0,93,93 5140
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4604.jpg,consumer,93-7350,93;7350;93;7350,True,qwen,93 7350,0,0,1.0,1,0.5,0,93 7350,93 7350 93 7350
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4626.jpg,consumer,51285-406,E;1,True,qwen,E,0,1,0.5,0,0.5,0,E,E 1
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4666.jpg,consumer,228-2634,634,False,qwen,632,0,0,0.0,0,0.3333333333333333,0,632,634
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4674.jpg,consumer,555-139,b8;139,False,qwen,139,0,1,0.5,0,0.4,0,139,B8 139
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4745.jpg,consumer,93-5712,5712;5;500,True,qwen,85712,0,0,0.0,0,0.625,0,85712,5712 5 500
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4794.jpg,consumer,93-3002,93;3002;93;3002,True,qwen,933002,0,0,0.0,0,0.5,0,933002,93 3002 93 3002
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4812.jpg,consumer,63010-27,V;625,False,qwen,625,0,1,0.5,0,0.25,0,625,V 625
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4844.jpg,consumer,51285-595,OP;701,True,qwen,08701,0,0,0.0,0,0.4,0,08701,OP 701
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4910.jpg,consumer,93-3002,93;3002;93;3002,True,qwen,933002,0,0,0.0,0,0.5,0,933002,93 3002 93 3002
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4946.jpg,consumer,228-2634,634,False,qwen,684,0,0,0.0,0,0.3333333333333333,0,684,634
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4948.jpg,consumer,832-1025,832;BC20,False,qwen,,0,0,0.0,0,1.0,0,,832 BC20
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/4951.jpg,consumer,93-7238,TEVA;7238,False,qwen,7238,0,1,0.5,0,0.5,0,7238,TEVA 7238
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/515.jpg,consumer,67253-902,S902,True,qwen,S 902,0,0,0.0,0,0.0,1,S 902,S902
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/563.jpg,consumer,93-7350,93;7350;93;7350,False,qwen,Blue and pink,0,0,0.0,0,1.0,0,BLUE AND PINK,93 7350 93 7350
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/599.jpg,consumer,53489-648,Mutual;866,True,qwen,mutual 866,1,1,1.0,1,0.0,1,MUTUAL 866,MUTUAL 866
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/609.jpg,consumer,456-1550,FL;50,False,qwen,50,0,1,0.5,0,0.5,0,50,FL 50
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/720.jpg,consumer,172-7311,50;mg,True,qwen,50mg,0,0,0.0,0,0.0,1,50MG,50 MG
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/743.jpg,consumer,378-1110,MYLAN;G2,True,qwen,25MILAN,0,0,0.0,0,0.7142857142857143,0,25MILAN,MYLAN G2
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/766.jpg,consumer,172-7311,50;mg,False,qwen,Yellow,0,0,0.0,0,1.5,0,YELLOW,50 MG
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/770.jpg,consumer,93-7238,TEVA;7238,False,qwen,7238,0,1,0.5,0,0.5,0,7238,TEVA 7238
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/795.jpg,consumer,456-1550,FL;50,False,qwen,50,0,1,0.5,0,0.5,0,50,FL 50
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/825.jpg,consumer,93-5140,93;5140,True,qwen,93,0,1,0.5,0,0.6666666666666666,0,93,93 5140
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/942.jpg,consumer,93-320,93;320,False,qwen,,0,0,0.0,0,1.0,0,,93 320
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/997.jpg,consumer,456-457,A;TC,True,qwen,45,0,0,0.0,0,1.0,0,45,A TC
+D:/ePillID_data/ePillID_data\classification_data\fcn_mix_weight/dc_224/999.jpg,consumer,93-320,93;320,True,qwen,03320,0,0,0.0,0,0.2,0,03320,93 320

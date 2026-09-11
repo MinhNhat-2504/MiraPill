@@ -1,0 +1,49 @@
+[db] classes=4902  with imprint=4865 (99.2%)
+  multiseed canonical: visual=90.89 MIRA=95.85
+  multiseed seed202: visual=89.14 MIRA=92.33
+  multiseed seed303: visual=90.26 MIRA=94.41
+  convnext: {'v_top1': 89.14, 'v_map': 94.27, 'm_top1': 92.81, 'm_map': 96.23, 'gain_top1': 3.67, 'gain_map': 1.96}
+
+[saved] fusion_out/remaining_results.json
+{
+  "multiseed": {
+    "n_seeds": 3,
+    "mira_mean": 94.19595314164003,
+    "mira_std": 1.7668434529325945,
+    "visual_mean": 90.09584664536742,
+    "visual_std": 0.8894192272891341,
+    "mira_vals": [
+      95.85,
+      92.33,
+      94.41
+    ]
+  },
+  "convnext": {
+    "v_top1": 89.14,
+    "v_map": 94.27,
+    "m_top1": 92.81,
+    "m_map": 96.23,
+    "gain_top1": 3.67,
+    "gain_map": 1.96
+  },
+  "softgate": {
+    "hard": {
+      "top1": 95.84664536741214,
+      "rescued": 32,
+      "hurt": 1
+    },
+    "soft": {
+      "top1": 93.76996805111821,
+      "rescued": 18,
+      "hurt": 0
+    },
+    "alpha": 6.839895985343771,
+    "beta": 2.4064573875960673,
+    "median_lp": -0.35182660566074664
+  },
+  "ocr": {
+    "engine": "PP-OCRv3",
+    "reference": 0.0,
+    "consumer": 0.0
+  }
+}

@@ -1,0 +1,101 @@
+[launcher] thread stack = 128 MB
+2026-07-30 08:48:54.896698: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|#####     | 1/2 [00:06<00:06,  6.33s/it]Loading checkpoint shards: 100%|##########| 2/2 [00:06<00:00,  2.95s/it]Loading checkpoint shards: 100%|##########| 2/2 [00:06<00:00,  3.46s/it]
+trainable params: 18,464,768 || all params: 2,227,450,368 || trainable%: 0.8290
+[train] samples=3593 optim-steps~=7186 (grad_accum=8)
+  epoch 0 step 10/7186 loss=0.6749
+  epoch 0 step 20/7186 loss=0.5477
+  epoch 0 step 30/7186 loss=0.5281
+  epoch 0 step 40/7186 loss=0.5269
+  epoch 0 step 50/7186 loss=0.5218
+  epoch 0 step 60/7186 loss=0.4964
+  epoch 0 step 70/7186 loss=0.4807
+  epoch 0 step 80/7186 loss=0.4732
+  epoch 0 step 90/7186 loss=0.4690
+  epoch 0 step 100/7186 loss=0.4512
+  epoch 0 step 110/7186 loss=0.4451
+  epoch 0 step 120/7186 loss=0.4371
+  epoch 0 step 130/7186 loss=0.4359
+  epoch 0 step 140/7186 loss=0.4244
+  epoch 0 step 150/7186 loss=0.4149
+  epoch 0 step 160/7186 loss=0.4123
+  epoch 0 step 170/7186 loss=0.4148
+  epoch 0 step 180/7186 loss=0.4162
+  epoch 0 step 190/7186 loss=0.4095
+  epoch 0 step 200/7186 loss=0.4048
+  epoch 0 step 210/7186 loss=0.4047
+  epoch 0 step 220/7186 loss=0.3998
+  epoch 0 step 230/7186 loss=0.3953
+  epoch 0 step 240/7186 loss=0.3980
+  epoch 0 step 250/7186 loss=0.3931
+  epoch 0 step 260/7186 loss=0.3898
+  epoch 0 step 270/7186 loss=0.3873
+  epoch 0 step 280/7186 loss=0.3888
+  epoch 0 step 290/7186 loss=0.3838
+  epoch 0 step 300/7186 loss=0.3807
+  epoch 0 step 310/7186 loss=0.3783
+  epoch 0 step 320/7186 loss=0.3756
+  epoch 0 step 330/7186 loss=0.3749
+  epoch 0 step 340/7186 loss=0.3745
+  epoch 0 step 350/7186 loss=0.3702
+  epoch 0 step 360/7186 loss=0.3693
+  epoch 0 step 370/7186 loss=0.3676
+  epoch 0 step 380/7186 loss=0.3662
+  epoch 0 step 390/7186 loss=0.3668
+  epoch 0 step 400/7186 loss=0.3634
+  epoch 0 step 410/7186 loss=0.3602
+  epoch 0 step 420/7186 loss=0.3592
+  epoch 0 step 430/7186 loss=0.3587
+  epoch 0 step 440/7186 loss=0.3560
+  epoch 1 step 450/7186 loss=0.3584
+  epoch 1 step 460/7186 loss=0.3555
+  epoch 1 step 470/7186 loss=0.3526
+  epoch 1 step 480/7186 loss=0.3516
+  epoch 1 step 490/7186 loss=0.3485
+  epoch 1 step 500/7186 loss=0.3448
+  epoch 1 step 510/7186 loss=0.3412
+  epoch 1 step 520/7186 loss=0.3400
+  epoch 1 step 530/7186 loss=0.3364
+  epoch 1 step 540/7186 loss=0.3365
+  epoch 1 step 550/7186 loss=0.3343
+  epoch 1 step 560/7186 loss=0.3358
+  epoch 1 step 570/7186 loss=0.3355
+  epoch 1 step 580/7186 loss=0.3339
+  epoch 1 step 590/7186 loss=0.3324
+  epoch 1 step 600/7186 loss=0.3312
+  epoch 1 step 610/7186 loss=0.3296
+  epoch 1 step 620/7186 loss=0.3276
+  epoch 1 step 630/7186 loss=0.3259
+  epoch 1 step 640/7186 loss=0.3240
+  epoch 1 step 650/7186 loss=0.3223
+  epoch 1 step 660/7186 loss=0.3205
+  epoch 1 step 670/7186 loss=0.3177
+  epoch 1 step 680/7186 loss=0.3167
+  epoch 1 step 690/7186 loss=0.3163
+  epoch 1 step 700/7186 loss=0.3149
+  epoch 1 step 710/7186 loss=0.3142
+  epoch 1 step 720/7186 loss=0.3123
+  epoch 1 step 730/7186 loss=0.3115
+  epoch 1 step 740/7186 loss=0.3101
+  epoch 1 step 750/7186 loss=0.3082
+  epoch 1 step 760/7186 loss=0.3079
+  epoch 1 step 770/7186 loss=0.3073
+  epoch 1 step 780/7186 loss=0.3061
+  epoch 1 step 790/7186 loss=0.3042
+  epoch 1 step 800/7186 loss=0.3022
+  epoch 1 step 810/7186 loss=0.3018
+  epoch 1 step 820/7186 loss=0.3008
+  epoch 1 step 830/7186 loss=0.2991
+  epoch 1 step 840/7186 loss=0.2978
+  epoch 1 step 850/7186 loss=0.2975
+  epoch 1 step 860/7186 loss=0.2962
+  epoch 1 step 870/7186 loss=0.2949
+  epoch 1 step 880/7186 loss=0.2939
+  epoch 1 step 890/7186 loss=0.2935
+[train] DONE. LoRA adapter saved -> qwen_imprint_lora_7525
+[eval]  evaluate with:
+  python imprint_feasibility.py --readers qwen --by_pill 50 \
+    --adapter "qwen_imprint_lora_7525" --gt_csv <Pillbox.csv> --data_root_dir <...>

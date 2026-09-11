@@ -1,0 +1,17 @@
+2026-07-30 08:45:49.108283: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[dbg] max_pixels = 401408
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|#####     | 1/2 [00:04<00:04,  4.06s/it]Loading checkpoint shards: 100%|##########| 2/2 [00:04<00:00,  1.88s/it]Loading checkpoint shards: 100%|##########| 2/2 [00:04<00:00,  2.21s/it]
+[dbg] loaded. mem alloc = 4.49 GB
+[dbg] row 0 input_ids=(1, 593) pixel_values=(2048, 1176)
+[dbg] row 0 forward ok loss=0.6428 mem=5.48 GB
+[dbg] row 0 backward ok mem=6.01 GB
+[dbg] row 1 input_ids=(1, 593) pixel_values=(2048, 1176)
+[dbg] row 1 forward ok loss=0.9658 mem=6.01 GB
+[dbg] row 1 backward ok mem=6.10 GB
+[dbg] row 2 input_ids=(1, 593) pixel_values=(2048, 1176)
+[dbg] row 2 forward ok loss=0.7476 mem=6.10 GB
+[dbg] row 2 backward ok mem=6.10 GB
+[dbg] ALL OK

@@ -1,0 +1,12 @@
+[load] CURE holdout queries=480 S=(480, 112)
+[db] CURE classes=112 with imprint=112 (100.0%)
+
+============================================================
+CURE cross-dataset (holdout, 480 queries, λ=0.3)
+============================================================
+E7/E9 branch table:
+  Visual-only      top1=0.1125 top5=0.2729 MAP=0.2106
+  Imprint-only     top1=0.0792 top5=0.2479 MAP=0.7516
+  MIRA-Pill        top1=0.1417 top5=0.3333 MAP=0.2498
+E8: rescued (visual wrong->MIRA right)=19  hurt=5  net=14
+============================================================

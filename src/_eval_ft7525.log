@@ -1,0 +1,95 @@
+[launcher] ['imprint_feasibility'] on a 128 MB stack
+[join] rows with imprint GT  -> reference: 9730  consumer: 3605
+[restrict] kept 479 types (1344/13335 imgs) from imprint_ft_data/val.jsonl
+[by_pill] reference: 479 pills / 976 imgs | consumer: 88 pills / 296 imgs
+[saved] sample -> feasibility_out_7525\sample.csv
+2026-07-30 11:26:17.464669: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|#####     | 1/2 [00:06<00:06,  6.70s/it]Loading checkpoint shards: 100%|##########| 2/2 [00:07<00:00,  3.10s/it]Loading checkpoint shards: 100%|##########| 2/2 [00:07<00:00,  3.64s/it]
+  [qwen] loaded LoRA adapter from qwen_imprint_lora_7525
+
+[run] reader = qwen  preprocess = none
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\generation\configuration_utils.py:590: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\generation\configuration_utils.py:595: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\generation\configuration_utils.py:612: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  [qwen] 20/1272
+  [qwen] 40/1272
+  [qwen] 60/1272
+  [qwen] 80/1272
+  [qwen] 100/1272
+  [qwen] 120/1272
+  [qwen] 140/1272
+  [qwen] 160/1272
+  [qwen] 180/1272
+  [qwen] 200/1272
+  [qwen] 220/1272
+  [qwen] 240/1272
+  [qwen] 260/1272
+  [qwen] 280/1272
+  [qwen] 300/1272
+  [qwen] 320/1272
+  [qwen] 340/1272
+  [qwen] 360/1272
+  [qwen] 380/1272
+  [qwen] 400/1272
+  [qwen] 420/1272
+  [qwen] 440/1272
+  [qwen] 460/1272
+  [qwen] 480/1272
+  [qwen] 500/1272
+  [qwen] 520/1272
+  [qwen] 540/1272
+  [qwen] 560/1272
+  [qwen] 580/1272
+  [qwen] 600/1272
+  [qwen] 620/1272
+  [qwen] 640/1272
+  [qwen] 660/1272
+  [qwen] 680/1272
+  [qwen] 700/1272
+  [qwen] 720/1272
+  [qwen] 740/1272
+  [qwen] 760/1272
+  [qwen] 780/1272
+  [qwen] 800/1272
+  [qwen] 820/1272
+  [qwen] 840/1272
+  [qwen] 860/1272
+  [qwen] 880/1272
+  [qwen] 900/1272
+  [qwen] 920/1272
+  [qwen] 940/1272
+  [qwen] 960/1272
+  [qwen] 980/1272
+  [qwen] 1000/1272
+  [qwen] 1020/1272
+  [qwen] 1040/1272
+  [qwen] 1060/1272
+  [qwen] 1080/1272
+  [qwen] 1100/1272
+  [qwen] 1120/1272
+  [qwen] 1140/1272
+  [qwen] 1160/1272
+  [qwen] 1180/1272
+  [qwen] 1200/1272
+  [qwen] 1220/1272
+  [qwen] 1240/1272
+  [qwen] 1260/1272
+  [qwen] 1272/1272
+[saved] per-image results -> feasibility_out_7525\per_image_results.csv
+
+================================================================
+BOTH-SIDES SUMMARY  (imprint pooled across a pill's side images)
+================================================================
+  qwen    | reference | pills=479 (avg 2.0 imgs/pill) | complete-imprint= 78.9%  token-recall= 85.2%
+  qwen    | consumer  | pills= 88 (avg 3.4 imgs/pill) | complete-imprint= 61.4%  token-recall= 73.7%
+================================================================
+DECISION GATE (both-sides token-recall):  reference >= 70%  AND  consumer >= 40%
+  qwen   : ref= 85.2%  cons= 73.7%  ->  PROCEED
+================================================================
+

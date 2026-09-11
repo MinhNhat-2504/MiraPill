@@ -60,7 +60,7 @@ Thumbs.db
 *.log
 *.out
 
-# manuscript material (the paper is not public yet)
+# manuscript material (kept out of the repo; the article itself is on the publisher site)
 *.tex
 *.pdf
 *.docx
@@ -68,3 +68,35 @@ Thumbs.db
 *.cls
 *.bst
 *.zip
+
+# ---------------------------------------------------------------------------
+# Experiment results and run logs.
+# Added after the article was published (CMC, DOI 10.32604/cmc.2026.087689).
+# These rules come last so they override the blanket *.csv / *.log / *.jsonl
+# patterns above.
+# ---------------------------------------------------------------------------
+!/src/*.log
+!/src/fusion_out/
+!/src/fusion_out/**
+!/src/imprint_ft_data_7525/
+!/src/imprint_ft_data_7525/**
+!/src/feas7525_base/
+!/src/feas7525_base/**
+!/src/feas7525_ft/
+!/src/feas7525_ft/**
+!/src/feas_tesseract/
+!/src/feas_tesseract/**
+!/src/feasibility_out/
+!/src/feasibility_out/**
+!/src/feasibility_out_7525/
+!/src/feasibility_out_7525/**
+!/src/azureml_logs/
+!/src/azureml_logs/**
+!/src/figures_7525/
+!/src/figures_7525/**
+
+# still too large, or superseded by the 75/25 configuration of record
+/src/fusion_out/r152_fold3_predictions.csv
+/src/fusion_out/_9010_backup/
+/src/feasibility_out/_ogyei_s.png
+/src/feasibility_out/_ogyei_u.png

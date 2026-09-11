@@ -1,0 +1,28 @@
+[launcher] ['cure_imprint_db'] on a 128 MB stack
+[db] reference crops: 336 over 112 classes
+2026-08-01 01:11:52.278005: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.99s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  1.83s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.16s/it]
+  [qwen] loaded LoRA adapter from qwen_imprint_lora_7525
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\generation\configuration_utils.py:590: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\generation\configuration_utils.py:595: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\generation\configuration_utils.py:612: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  [db] 40 classes...
+  [db] 80 classes...
+
+[db] DONE. 112 classes, 112 with non-empty imprint (100.0%)
+[db] saved -> D:\Data\ogyeiv2_crops\ogyei_imprint_db_7525cap3.csv
+[db] samples:
+   class 0: 'A T'
+   class 1: 'H 20 T L'
+   class 2: '4 T'
+   class 3: 'B 1 T'
+   class 4: 'SCARAB T RED'
+   class 5: 'AS ACETYLCHOLINE 30 PLAINLY 508'
+   class 6: 'B 1 AS 257'
+   class 7: 'T 10 PLAIN L 1'

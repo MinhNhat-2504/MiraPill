@@ -1,0 +1,25 @@
+2026-07-11 21:18:24.556063: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+D:\Project\AI Engineer\ePillID-benchmark-master\src\imprint_feasibility.py:414: DeprecationWarning: The parameter `use_angle_cls` has been deprecated and will be removed in the future. Please use `use_textline_orientation` instead.
+  self.ocr = PaddleOCR(use_angle_cls=True, lang="en", show_log=False)
+[join] rows with imprint GT  -> reference: 9730  consumer: 3605
+[by_pill] reference: 50 pills / 100 imgs | consumer: 50 pills / 181 imgs
+[saved] sample -> feasibility_out\sample.csv
+Traceback (most recent call last):
+  File "D:\Project\AI Engineer\ePillID-benchmark-master\src\imprint_feasibility.py", line 669, in <module>
+    main()
+  File "D:\Project\AI Engineer\ePillID-benchmark-master\src\imprint_feasibility.py", line 643, in main
+    readers.append(PaddleReader())
+                   ^^^^^^^^^^^^^^
+  File "D:\Project\AI Engineer\ePillID-benchmark-master\src\imprint_feasibility.py", line 414, in __init__
+    self.ocr = PaddleOCR(use_angle_cls=True, lang="en", show_log=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\paddleocr\_pipelines\ocr.py", line 173, in __init__
+    super().__init__(**base_params)
+  File "C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\paddleocr\_pipelines\base.py", line 63, in __init__
+    self._common_args = parse_common_args(
+                        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\paddleocr\_common_args.py", line 54, in parse_common_args
+    raise ValueError(f"Unknown argument: {name}")
+ValueError: Unknown argument: show_log

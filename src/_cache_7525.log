@@ -1,0 +1,41 @@
+[load] holdout queries=626  S_visual shape=(626, 4902)
+2026-07-30 22:14:08.927009: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|#####     | 1/2 [00:06<00:06,  6.23s/it]Loading checkpoint shards: 100%|##########| 2/2 [00:06<00:00,  2.90s/it]Loading checkpoint shards: 100%|##########| 2/2 [00:06<00:00,  3.40s/it]
+  [qwen] loaded LoRA adapter from qwen_imprint_lora_7525
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\generation\configuration_utils.py:590: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\generation\configuration_utils.py:595: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\generation\configuration_utils.py:612: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  [imprint] 25/626
+  [imprint] 50/626
+  [imprint] 75/626
+  [imprint] 100/626
+  [imprint] 125/626
+  [imprint] 150/626
+  [imprint] 175/626
+  [imprint] 200/626
+  [imprint] 225/626
+  [imprint] 250/626
+  [imprint] 275/626
+  [imprint] 300/626
+  [imprint] 325/626
+  [imprint] 350/626
+  [imprint] 375/626
+  [imprint] 400/626
+  [imprint] 425/626
+  [imprint] 450/626
+  [imprint] 475/626
+  [imprint] 500/626
+  [imprint] 525/626
+  [imprint] 550/626
+  [imprint] 575/626
+  [imprint] 600/626
+  [imprint] 625/626
+  [imprint] 626/626
+[cache] saved imprint readings -> fusion_out/imprints_holdout_7525.csv
+[remap] rewrote 1252/1252 query image paths (D:/ePillID_data -> D:/Data/ePillID_data)

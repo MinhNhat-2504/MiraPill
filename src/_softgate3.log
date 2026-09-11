@@ -1,0 +1,44 @@
+2026-07-12 14:55:03.092845: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+[softgate] caching reader logprobs (GPU)...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.51s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.19s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.54s/it]
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\generation\configuration_utils.py:590: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\generation\configuration_utils.py:595: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+C:\Users\Minh Nhat\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\generation\configuration_utils.py:612: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+From v4.47 onwards, when a model cache is to be returned, `generate` will return a `Cache` instance instead by default (as opposed to the legacy tuple of tuples format). If you want to keep returning the legacy format, please set `return_legacy_cache=True`.
+  [qwen] loaded LoRA adapter from qwen_imprint_lora
+  [softgate] 50/626
+  [softgate] 100/626
+  [softgate] 150/626
+  [softgate] 200/626
+  [softgate] 250/626
+  [softgate] 300/626
+  [softgate] 350/626
+  [softgate] 400/626
+  [softgate] 450/626
+  [softgate] 500/626
+  [softgate] 550/626
+  [softgate] 600/626
+[db] classes=4902  with imprint=4865 (99.2%)
+{
+  "hard": {
+    "top1": 95.0479233226837,
+    "rescued": 30,
+    "hurt": 4
+  },
+  "soft": {
+    "top1": 92.97124600638978,
+    "rescued": 14,
+    "hurt": 1
+  },
+  "alpha": 8.160228390968399,
+  "beta": 2.1247024944083535,
+  "median_lp": -0.26037292004718127
+}
+[saved] fusion_out/softgate_result.json
+SOFTGATE3_DONE

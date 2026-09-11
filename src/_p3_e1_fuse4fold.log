@@ -1,0 +1,20 @@
+[e1] fold prediction files:
+    eval_predictions_pilltypeid_nih_sidelbls0.01_metric_5folds_0.csv
+    eval_predictions_pilltypeid_nih_sidelbls0.01_metric_5folds_1.csv
+    eval_predictions_pilltypeid_nih_sidelbls0.01_metric_5folds_2.csv
+    eval_predictions_pilltypeid_nih_sidelbls0.01_metric_5folds_3.csv
+[db] classes=4902  with imprint=4865 (99.2%)
+  fold _0: visual top1=0.8850 MAP=0.9334 | MIRA top1=0.9345 MAP=0.9638
+  fold _1: visual top1=0.9089 MAP=0.9492 | MIRA top1=0.9377 MAP=0.9643
+  fold _2: visual top1=0.9105 MAP=0.9529 | MIRA top1=0.9425 MAP=0.9694
+  fold _3: visual top1=0.9089 MAP=0.9485 | MIRA top1=0.9585 MAP=0.9780
+
+============================================================
+E1 — 4-fold CV (both-sides, test=_4), lambda=0.2
+============================================================
+Model                     top-1          top-5            MAP
+Visual-only       90.34±1.23   99.36±0.47   94.60±0.86
+MIRA-Pill         94.33±1.06   99.80±0.15   96.89±0.66
+------------------------------------------------------------
+Improvement: top-1 +3.99pp   MAP +2.29pp
+============================================================

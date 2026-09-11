@@ -1,0 +1,91 @@
+[db] classes=4902  with imprint=4865 (99.2%)
+{
+  "holdout_N": 626,
+  "pooled_N": 2504,
+  "n_folds": 4,
+  "boot_class_top1": [
+    1.8769468849840256,
+    6.537876601167654
+  ],
+  "boot_class_top5": [
+    0.07716049382716049,
+    0.9466596676184614
+  ],
+  "boot_class_map": [
+    1.0909546038088969,
+    3.65369758194322
+  ],
+  "boot_foldclass_top1": [
+    2.7121102267903967,
+    5.398874276689745
+  ],
+  "delta_top1_pp": 3.993610223642172,
+  "delta_top5_pp": 0.43929712460063897,
+  "delta_map_pp": 2.2856114199964037,
+  "gate_active": 2504,
+  "gate_inactive": 0,
+  "gate_active_share": 100.0,
+  "gate_active_top1correct": 2362,
+  "gate_active_top1correct_share": 94.32907348242811,
+  "rescued": 106,
+  "hurt": 6,
+  "rescued_share": 4.233226837060703,
+  "hurt_share": 0.23961661341853036,
+  "strata": {
+    "present_readnonempty": {
+      "n": 2408,
+      "vtop1": 90.49003322259136,
+      "dtop1": 4.194352159468438
+    },
+    "present_readempty": {
+      "n": 0,
+      "vtop1": 0,
+      "dtop1": 0
+    },
+    "absent_metadata": {
+      "n": 96,
+      "vtop1": 86.45833333333334,
+      "dtop1": -1.0416666666666665
+    }
+  },
+  "dataflow": [
+    {
+      "fold": 1,
+      "train_types": 4518,
+      "test_types": 192,
+      "ref_gallery": 9036,
+      "consumer_test": 745,
+      "bothsides_queries": 626,
+      "final_queries": 626
+    },
+    {
+      "fold": 2,
+      "train_types": 4518,
+      "test_types": 192,
+      "ref_gallery": 9036,
+      "consumer_test": 745,
+      "bothsides_queries": 626,
+      "final_queries": 626
+    },
+    {
+      "fold": 3,
+      "train_types": 4518,
+      "test_types": 192,
+      "ref_gallery": 9036,
+      "consumer_test": 745,
+      "bothsides_queries": 626,
+      "final_queries": 626
+    },
+    {
+      "fold": 4,
+      "train_types": 4518,
+      "test_types": 192,
+      "ref_gallery": 9036,
+      "consumer_test": 745,
+      "bothsides_queries": 626,
+      "final_queries": 626
+    }
+  ]
+}
+
+[saved] fusion_out/rebuttal_stats.json
